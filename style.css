@@ -27,7 +27,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    border-bottom: 1px solid #EBEBEB; /* Серая линия под элементом */
+    border-bottom: 1px solid #EBEBEB; 
 }
 
 .navbar__menu {
