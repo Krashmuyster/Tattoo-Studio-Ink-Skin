@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия Татуировок Ink & Skin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <!-- логотип + меню (Услуги, Мастера, Отзывы, Контакты) + возможно кнопка -->
+        <nav class="navbar__menu navbar__menu--left">
+            <a href="#home" class="navbar__link">Главная</a>
+            <a href="#about" class="navbar__link">О нас</a>
+            <a href="#services" class="navbar__link">Услуги</a>
+        </nav>
+
+        <a href="#" class="navbar__logo">Студия Татуировок Ink & Skin</a>
+
+        <nav class="navbar__menu navbar__menu--right">
+            <a href="#masters" class="navbar__link">Мастера</a>
+            <a href="#reviews" class="navbar__link">Отзывы</a>
+            <a href="#contacts" class="navbar__link">Контакты</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero__top">
+                <h1 class="hero__title">Студия татуировок</h1>
+                <div class="hero__content">
+                    <p class="hero__description">Добро пожаловать в студию татуировок, где мы предлагаем профессиональные услуги по нанесению татуировок и пирсинга.</p>
+                    <button class="hero__button">Запишитесь сейчас</button>
+                </div>
+            </div>
+            <img src="img/hero.webp" alt="Интерьер студии" class="hero__image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <!-- О студии: заголовок + текст -->
+        <div class="about__inner">
+            <div class="about__intro">
+                <h2 class="about__title">О студии</h2>
+
+                <p class="about__subtitle">
+                    Татуировки, созданные с любовью и мастерством.
+                </p>
+            </div>
+
+            <p class="about__description">
+                Наша студия предлагает широкий спектр услуг по нанесению татуировок. Мы используем только высококачественные материалы и современное оборудование. Опытные мастера помогут вам воплотить в жизнь любые идеи и создать уникальный дизайн. Мы уделяем особое внимание безопасности и здоровью клиентов, а также стремимся сделать процесс нанесения татуировки максимально комфортным.
+            </p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <!-- Услуги: заголовок + подзаголовок + 3 карточки услуг -->
+        <div class="services__inner">
+            <div class="services__intro">
+                <h2 class="services__title">Услуги</h2>
+
+                <p class="services__subtitle">
+                    Предлагаем услуги: чёрно-белая и цветная тату, кавер-ап, пирсинг. Наши мастера профессиональны и опытны.
+                </p>
+            </div>
+
+            <div class="services__cards">
+                <div class="services__card">
+                    <h3 class="services__card-title">Чёрно-белая татуировка</h3>
+                    <p class="services__card-description">Создание выразительных татуировок с использованием чёрных и белых чернил для классического стиля.
+                    </p>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__card-title">Цветная татуировка</h3>
+                    <p class="services__card-description">Яркие и насыщенные татуировки с использованием цветных чернил для создания индивидуальных дизайнов.
+                    </p>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__card-title">Кавер-ап</h3>
+                    <p class="services__card-description">Маскировка старых или нежелательных татуировок с помощью новых рисунков для обновления внешнего вида.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="masters" id="masters">
+        <!-- Мастера: заголовок + подзаголовок + 3 карточки мастеров -->
+        <div class="masters__inner">
+            <div class="masters__intro">
+                <h2 class="masters__title">Мастера</h2>
+
+                <p class="masters__subtitle">
+                    Наши мастера — профессионалы с богатым опытом.<br>Ознакомьтесь с их описаниями и выберите<br>подходящего по стилю.
+                </p>
+            </div>
+
+            <div class="masters__cards">
+                <div class="masters__card">
+                    <div class="masters__card-img">
+                        <img src="img/Тату 1.avif" alt="master-1">
+                    </div>
+                    
+                    <div class="masters__card-text">
+                        <div class="masters__card-header">
+                            <h3 class="masters__card-title">Анна Петрова</h3>
+                            <p class="masters__card-subtitle">Татуировщик</p>
+                            <span class="masters__card-divider"></span>
+                        </div>
+                        
+                        <p class="masters__card-description">
+                            Татуировщик с уникальным стилем. Любит<br>
+                            работать с акварельной техникой и создавать<br>
+                            нежные, живые рисунки.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="masters__card">
+                    <div class="masters__card-img">
+                        <img src="img/Тату 2.avif" alt="master-2">
+                    </div>
+
+                    <div class="masters__card-text">
+                        <div class="masters__card-header">
+                            <h3 class="masters__card-title">Иван Фёдоров</h3>
+                            <p class="masters__card-subtitle">Татуировщик</p>
+                            <span class="masters__card-divider"></span>
+                        </div>
+
+                        <p class="masters__card-description">
+                            Мастер с большим опытом работы. Cоздает<br>
+                            реалистичные татуировки с мельчайшими<br>
+                            деталями.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="masters__card">
+                    <div class="masters__card-img">
+                        <img src="img/Тату 3.avif" alt="master-3">
+                    </div>
+
+                    <div class="masters__card-text">
+                        <div class="masters__card-header">
+                            <h3 class="masters__card-title">Марина Смирнова</h3>
+                            <p class="masters__card-subtitle">Татуировщик</p>
+                            <span class="masters__card-divider"></span>
+                        </div>
+
+                        <p class="masters__card-description">
+                            Татуировщик, экспериментирующий с цветами<br>
+                            и формами, создает яркие и запоминающиеся<br>
+                            татуировки.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <!-- Отзывы: заголовок + 3 карточки отзывов -->
+
+        <div class="reviews__inner">
+            <div class="reviews__intro">
+                <h2 class="reviews__title">Отзывы</h2>
+            </div>
+
+            <div class="reviews__cards">
+                <div class="reviews__card">
+                    <div class="reviews__card-img">
+                        <img src="img/Клиент 1.avif" alt="client-1">
+                    </div>
+
+                    <div class="reviews__card-content">
+                        <p class="reviews__card-description">
+                            Отличная работа! Татуировка получилась<br>
+                            именно такой, какой я её задумала. Буду<br>
+                            рекомендовать вас своим друзьям.
+                        </p>
+
+                        <div class="reviews__card-author">
+                            <h4 class="reviews__card-title">Анна Смирнова</h4>
+                            <p class="reviews__card-subtitle">Клиент студии</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__card">
+                    <div class="reviews__card-img">
+                        <img src="img/Клиент 2.avif" alt="client-2">
+                    </div>
+
+                    <div class="reviews__card-content">
+                        <p class="reviews__card-description">
+                            Профессионализм на высшем уровне! Мастер<br>
+                            внимательно выслушал мои пожелания<br>
+                            и воплотил их в жизнь. Очень доволен<br>
+                            результатом.
+                        </p>
+
+                        <div class="reviews__card-author">
+                            <h4 class="reviews__card-title">Максим Волков</h4>
+                            <p class="reviews__card-subtitle">Клиент студии</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__card">
+                    <div class="reviews__card-img">
+                        <img src="img/Клиент 3.avif" alt="client-3">
+                    </div>
+
+                    <div class="reviews__card-content">
+                        <p class="reviews__card-description">
+                            Студия превзошла все мои ожидания! Работа<br>
+                            выполнена качественно и аккуратно.<br>
+                            Обязательно вернусь снова.
+                        </p>
+
+                        <div class="reviews__card-author">
+                            <h4 class="reviews__card-title">Елена Кузнецова</h4>
+                            <p class="reviews__card-subtitle">Клиент студии</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <!-- Контакты + соцсети -->
+        <div class="contacts__inner">
+            <div class="contacts__intro">
+                <div class="contacts__main-content">
+                    <h2 class="contacts__title">Контакты</h2>
+
+                    <div class="contacts__info">
+                        <p class="contacts__phone">Телефон: 8 800 555-66-77</p>
+                        <p class="contacts__email">Email: example@example.ru</p>
+                    </div>
+                    <p class="contacts__address">Адрес: ул. Центральная, д. 1, город Москва</p>
+                </div>
+                
+            </div>
+
+            <div class="contacts__icons">
+                <a href="#" class="contacts__icon-link">
+                    <img src="img/icons8-твиттерх-50 1.png" alt="TwitterX">
+                </a>
+
+                <a href="#" class="contacts__icon-link">
+                    <img src="img/icons8-телеграм-50 1.png" alt="Telegram">
+                </a>
+
+                <a href="#" class="contacts__icon-link">
+                    <img src="img/icons8-instagram-50 1.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <span class="footer__copyright-divider"></span>
+
+    <footer class="footer" id="footer">
+        <p class="footer__copyright">© 2026 Студия татуировок Ink & Skin. Все права защищены.</p>
+    </footer>
+</body>
+</html>
