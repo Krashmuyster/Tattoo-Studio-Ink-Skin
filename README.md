@@ -17,7 +17,8 @@ My first coded website
 
 ## Скриншот
 
-![Uploading image.png…]()
+<img width="1062" height="757" alt="image" src="https://github.com/user-attachments/assets/f0d18b94-75ea-4c51-bcfc-fb42cf6bd994" />
+
 
 
 ## Что отрабатывалось
